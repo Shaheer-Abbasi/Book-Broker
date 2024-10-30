@@ -1,0 +1,306 @@
+#root {
+  text-align: center;
+  overflow: hidden;
+}
+
+.navBar {
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.navBar > .bookSearchHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1E;
+  border-right: 1px solid #646cff;
+  width: 50%;
+  cursor: pointer;
+}
+
+.bookSearchHeading:hover {
+  opacity: 0.5;
+}
+
+.bookSearchHeading > h1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: center;
+}
+
+.navBar > .reccHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1E;
+  border-left: 1px solid #646cff;
+  width: 50%;
+  cursor: pointer;
+}
+
+.reccHeading:hover {
+  opacity: 0.5;
+}
+
+.reccHeading > h1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: center;
+}
+
+.mainDiv {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.75;
+  height: 50rem;
+  width: 65rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px black;
+}
+
+span {
+  display: block;
+  color: black;
+  font-style: italic;
+  font-size: smaller;
+}
+
+.dropdown {
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.dropdown:hover {
+  border-color: #646cff;
+}
+
+.dropdown > option {
+  background-color: #2c2c2c;
+}
+
+option:hover {
+  background-color: #2c2c2c;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-container > input {
+  margin-top: 1rem;
+  height: 40px;
+  width: 35%;
+  background-color: antiquewhite;
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+}
+
+.search-container > input:focus {
+  outline: none;
+}
+
+.cardContainer {
+  height: 100%;
+}
+
+.cardContainer > .buttonContainer {
+  display: flex;
+  justify-self: center;
+  gap: 3rem;
+}
+
+.buttonContainer > .leftBtn {
+  margin-left: 3.2rem;
+}
+
+.buttonContainer > .rightBtn {
+  margin-right: 3.2rem;
+}
+
+.bookCard {
+  font-size: small;
+  margin: auto;
+  height: 75%;
+  width: 90%;
+  color: black;
+  background-color: burlywood;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookCard > h1 {
+  text-align: center;
+}
+
+.upperParent {
+  height: 65%;
+  width: 95%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.upperParent > .coverParent {
+  background-color: antiquewhite;
+  height: 100%;
+  width: 50%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  height: 100%;
+  overflow: auto;
+}
+
+img{
+  margin-bottom: 1rem;
+}
+
+.coverInfo {
+  text-align: left;
+}
+
+.coverParent > .coverInfo{
+  margin-left: 1rem;
+}
+
+.upperParent > .infoParent {
+  height: 100%;
+  width: 50%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.infoParent > .infoContainer {
+  background-color: antiquewhite;
+  height: 35%;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer > p {
+  margin-top: -1rem;
+}
+
+.lowerParent {
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  height: 25%;
+  width: 95%;
+  border-radius: 12px;
+}
+
+.descriptionDisplay{
+  text-align: left;
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.descriptionDisplay > h3 {
+  text-align: center;
+}
+
+.descriptionDisplay > p {
+  margin-left: 1rem;
+}
+
+/****************************************************************************/
+
+.reccDiv {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.75;
+  height: 50rem;
+  width: 65rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px black;
+  overflow: auto;
+}
+
+.infoText {
+  color: black;
+}
+
+.infoText > p {
+  font-style: italic;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.inputContainer > input {
+  height: 40px;
+  width: 35%;
+  background-color: antiquewhite;
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+}
+
+.inputContainer > button {
+  margin-top: 0px;
+}
+
+.reccContainer {
+  height: 72.5%;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  color: black;
+  background-color: burlywood;
+  border-radius: 15px;
+  overflow: auto;
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.reccContainer > .itemDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}

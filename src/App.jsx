@@ -171,7 +171,7 @@ function App() {
 
   const apiSelectDropdown = () => {
     const options = [
-     {value: "Poop", label: "Poop"},
+     {value: "Amazon", label: "Amazon"},
      {value: "Google Books", label: "Google Books"}
     ]
 
